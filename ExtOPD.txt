@@ -1,0 +1,19 @@
+Opdracht 1: Wat wordt er op de pagina getoond als je de volgende text invoert:
+
+Coole website <script>alert("XSS voorbeeld")</script>?
+
+Dan krijg je dit te zien – 
+Ingevoerde zoekterm: Coole website?
+Er zijn geen resultaten gevonden voor de ingevoerde zoekopdracht!
+Er komt ook een pop-up box met de text "XSS voorbeeld".
+
+Opdracht 2: Wat gebeurd er als je <font color="blue"> invoert? 
+Ingevoerde zoekterm:
+Er zijn geen resultaten gevonden voor de ingevoerde zoekopdracht! 
+Het verandert en wordt blauw van kleur.
+
+Opdracht 3: Hoe kun je XSS injecties voorkomen?
+Je kunt de input filteren zodat het niet mogelijk is om bepaalde leestekens in te voeren.
+
+
+
